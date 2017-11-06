@@ -37,9 +37,9 @@ Student access panel:
 | `POST`   | /classes                                     | create a class                  | class (body)                         | class              | 
 | `DELETE` | /classes/(class_uuid)                        | remove a class                  | class_uuid (url)                     | -                  | 
 | `PUT`    | /classes/(class_uuid)                        | change class information        | class_uuid (url), class (body)       | class              |
-| `GET`    | /classes/(class_uuid/students                | list of all students in a class | class_uuid (url)                     | array of student   |
-| `PUT`    | /classes/(class_uuid/students                | add a student in a class        | class_uuid (url), student (body)     | class              | 
-| `DELETE` | /classes/(class_uuid/students/(student_uuid) | remove a student from a class   | class_uuid (url), student_uuid (url) | class              |   
+| `GET`    | /classes/(class_uuid)/students                | list of all students in a class | class_uuid (url)                     | array of student   |
+| `PUT`    | /classes/(class_uuid)/students                | add a student in a class        | class_uuid (url), student (body)     | class              | 
+| `DELETE` | /classes/(class_uuid)/students/(student_uuid) | remove a student from a class   | class_uuid (url), student_uuid (url) | class              |   
 
 ### Students
 
